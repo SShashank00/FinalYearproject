@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Plant Care</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <meta property="og:title" content="Plantcare" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: white;
+        background-color: white;
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <nav class="navbar-navbar navbar-root-class-name">
+          <img
+                      alt="image"
+                      src="public/Icons/icc.png" 
+                      height="50"
+                      max-width: 50%;
+                    />
+          <h1 style="color: white;"><span>PlantCare</h1>
+          <div class="navbar-nav-content">
+            <div class="navbar-nav-links">
+              <span class="navbar-link nav-link">Home</span>
+              <!-- <span class="navbar-link nav-link"> <a href="https://mediafiles.botpress.cloud/53185d81-9524-4220-8bcb-d6768e211aee/webchat/bot.html">AI Chatbot</a></span> -->
+              <span class="nav-link"><a href="404.html">Community</a></span>
+              <span class="nav-link">HealthScore</span>
+              <!-- <span class="nav-link">Contact</span> -->
+            </div>
+            <div class="get-started navbar-get-started">
+              <span class="navbar-text"><a href="./login.html">login/Signup</a></span>
+            </div>
+            <div id="open-mobile-menu" class="navbar-hamburger get-started">
+              <img
+                alt="image"
+                src="public/Icons/hamburger-200h.png"
+                class="navbar-image"
+              />
+            </div>
+          </div>
+          <div id="mobile-menu" class="navbar-mobile-menu">
+            <div class="navbar-branding">
+              <img
+              alt="image"
+              src="public/Icons/icc.png"
+              height="50"
+              max-width: 50%;
+            />
+            <h1 style="color: black;"><span>PlantCare</h1>
+              <div id="close-mobile-menu" class="navbar-container">
+                <svg viewBox="0 0 1024 1024" class="navbar-icon">
+                  <path
+                    d="M225.835 286.165l225.835 225.835-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l225.835-225.835 225.835 225.835c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331l-225.835-225.835 225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.835 225.835-225.835-225.835c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="navbar-nav-links1">
+              <span class="navbar-link nav-link">Home</span>
+              <!-- <span class="navbar-link nav-link"> <a href="https://mediafiles.botpress.cloud/53185d81-9524-4220-8bcb-d6768e211aee/webchat/bot.html">AI Chatbot</a></span> -->
+              <span class="nav-link"><a href="404.html">Community</a></span>
+              <span class="nav-link">HealthScore</span>
+              <!-- <span class="nav-link">Contact</span> -->
+            </div>
+            <div class="get-started">
+              <span class="navbar-text1"><a href="./login.html">login/Signup</a></span>
+            </div>
+          </div>
+          <div>
+
+            <div class="navbar-container2">
+              <script>
+                    /*
+                Mobile menu - Code Embed
+                */
+
+                /* listenForUrlChangesMobileMenu() makes sure that if you changes pages inside your app,
+                the mobile menu will still work*/
+
+                const listenForUrlChangesMobileMenu = () => {
+                    let url = location.href;
+                    document.body.addEventListener('click', () => {
+                        requestAnimationFrame(() => {
+                            if (url !== location.href) {
+                                runMobileMenuCodeEmbed();
+                                url = location.href;
+                            }
+                        });
+                    },
+                    true
+                    );
+                };
+
+                const runMobileMenuCodeEmbed = () => {
+                    // Mobile menu
+                    const mobileMenu = document.querySelector('#mobile-menu')
+
+                    // Buttons
+                    const closeButton = document.querySelector('#close-mobile-menu')
+                    const openButton = document.querySelector('#open-mobile-menu')
+
+                    // On openButton click, set the mobileMenu position left to -100vw
+                    openButton && openButton.addEventListener('click', function() {
+                        mobileMenu.style.transform = 'translateX(0%)'
+                    })
+
+                    // On closeButton click, set the mobileMenu position to 0vw
+                    closeButton && closeButton.addEventListener('click', function() {
+                        mobileMenu.style.transform = 'translateX(100%)'
+                    })
+                }
+
+                runMobileMenuCodeEmbed()
+                listenForUrlChangesMobileMenu()
+
+                const initSlider = () => {
+    const imageList = document.querySelector(".slider-wrapper .image-list");
+    const slideButtons = document.querySelectorAll(".slider-wrapper .slide-button");
+    const sliderScrollbar = document.querySelector(".container .slider-scrollbar");
+    const scrollbarThumb = sliderScrollbar.querySelector(".scrollbar-thumb");
+    const maxScrollLeft = imageList.scrollWidth - imageList.clientWidth;
+    // Handle scrollbar thumb drag
+    scrollbarThumb.addEventListener("mousedown", (e) => {
+        const startX = e.clientX;
+        const thumbPosition = scrollbarThumb.offsetLeft;
+        const maxThumbPosition = sliderScrollbar.getBoundingClientRect().width - scrollbarThumb.offsetWidth;
+        // Update thumb position on mouse move
+        const handleMouseMove = (e) => {
+            const deltaX = e.clientX - startX;
+            const newThumbPosition = thumbPosition + deltaX;
+
+            // Ensure the scrollbar thumb stays within bounds
+            const boundedPosition = Math.max(0, Math.min(maxThumbPosition, newThumbPosition));
+            const scrollPosition = (boundedPosition / maxThumbPosition) * maxScrollLeft;
+            scrollbarThumb.style.left = `${boundedPosition}px`;
+            imageList.scrollLeft = scrollPosition;
+        }
+
+        // Remove event listeners on mouse up
+        const handleMouseUp = () => {
+            document.removeEventListener("mousemove", handleMouseMove);
+            document.removeEventListener("mouseup", handleMouseUp);
+        }
+
+        // Add event listeners for drag interaction
+        document.addEventListener("mousemove", handleMouseMove);
+        document.addEventListener("mouseup", handleMouseUp);
+    });
+
+    // Slide images according to the slide button clicks
+    slideButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            const direction = button.id === "prev-slide" ? -1 : 1;
+            const scrollAmount = imageList.clientWidth * direction;
+            imageList.scrollBy({ left: scrollAmount, behavior: "smooth" });
+        });
+    });
+
+     // Show or hide slide buttons based on scroll position
+    const handleSlideButtons = () => {
+        slideButtons[0].style.display = imageList.scrollLeft <= 0 ? "none" : "flex";
+        slideButtons[1].style.display = imageList.scrollLeft >= maxScrollLeft ? "none" : "flex";
+    }
+
+    // Update scrollbar thumb position based on image scroll
+    const updateScrollThumbPosition = () => {
+        const scrollPosition = imageList.scrollLeft;
+        const thumbPosition = (scrollPosition / maxScrollLeft) * (sliderScrollbar.clientWidth - scrollbarThumb.offsetWidth);
+        scrollbarThumb.style.left = `${thumbPosition}px`;
+    }
+
+    // Call these two functions when image list scrolls
+    imageList.addEventListener("scroll", () => {
+        updateScrollThumbPosition();
+        handleSlideButtons();
+    });
+}
+
+window.addEventListener("resize", initSlider);
+window.addEventListener("load", initSlider);
+
+
+              </script>
+            </div>
+          </div>
+        </nav>
+        <!-- <section class="home-section"> -->
+          <div class="home-content">
+            <main class="home-main">
+              <header class="home-header">
+                <h1 class="home-heading"> 
+                  Welcome To    PlantCare
+                </h1>
+                <span class="home-caption">
+                  Take a photo of your sick crop and get a free diagnosis and treatment suggestions — all in a few seconds!
+                </span>
+              </header>
+              <div class="home-buttons">
+                <!-- <div class="home-get-started button">
+                  <span class="home-text">Get started</span>
+                </div>
+                <div class="home-get-started1 button">
+                  <span class="home-text01">View features</span>
+                </div> -->
+              </div>
+            </main>
+          </div>
+          <div class="container">
+            <div class="slider-wrapper">
+              <button id="prev-slide" class="slide-button material-symbols-rounded">
+                chevron_left
+              </button>
+              <ul class="image-list">
+                <img class="image-item" src="public\SectionImages\img-1.jpg" alt="img-1" />
+                <img class="image-item" src="public\SectionImages\img-2.jpg" alt="img-2" />
+                <img class="image-item" src="public\SectionImages\img-3.jpg" alt="img-3" />
+                <img class="image-item" src="public\SectionImages\img-4.jpg" alt="img-4" />
+                <img class="image-item" src="public\SectionImages\img-5.jpg" alt="img-5" />
+                <img class="image-item" src="public\SectionImages\img-6.jpg" alt="img-6" />
+                <img class="image-item" src="public\SectionImages\img-7.jpg" alt="img-6" />
+                <img class="image-item" src="public\SectionImages\img-8.jpg" alt="img-6" />
+                <img class="image-item" src="public\SectionImages\img-9.jpg" alt="img-6" />
+                <img class="image-item" src="public\SectionImages\img-10.jpg" alt="img-6" />
+                <!-- <img class="image-item" src="public\SectionImages\img-11.jpg" alt="img-6" />
+                <img class="image-item" src="public\SectionImages\img-12.jpg" alt="img-6" /> -->
+              </ul>
+              <button id="next-slide" class="slide-button material-symbols-rounded">
+                chevron_right
+              </button>
+            </div>
+            <div class="slider-scrollbar">
+              <div class="scrollbar-track">
+                <div class="scrollbar-thumb"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-section02">
+          <section class="home-note1">
+            <div class="home-image09">
+              <img
+                alt="image"
+                src="public\Icons\2.png"
+                class="home-image10" height="500" weight="700"
+              />
+            </div>
+            <div class="home-content2">
+              <div class="home-main2">
+                <div class="home-caption2">
+                  <span class="section-head"></span>
+                </div>
+                <div class="home-heading02">
+                  <h2 class="section-heading">
+                    Diagnose your sick crop 
+                  </h2>
+                  <p class="section-description">
+                    Take a photo of your sick crop and get a free diagnosis and
+                        treatment suggestions all in a few seconds!</p>
+                </div>
+              </div>
+              <div class="home-get-started2 button">
+                <span class="home-text17">Scan now</span>
+              </div>
+              
+            </div>
+          </section>
+          </section>
+          <!-- <section class="home-section02"> -->
+          <!-- <section class="home-note2"> -->
+            <!-- <div class="home-image09"> -->
+              <!-- <img -->
+                <!-- alt="image" -->
+                <!-- src="public\Icons\4.png" -->
+                <!-- class="home-image10" height="500" weight="700" -->
+              <!-- /> -->
+            <!-- </div> -->
+            <!-- <div class="home-content2"> -->
+              <!-- <div class="home-main2"> -->
+                <!-- <div class="home-caption2"> -->
+                  <!-- <span class="section-head"></span> -->
+                <!-- </div> -->
+                <!-- <div class="home-heading02"> -->
+                  <!-- <h2 class="section-heading"> -->
+                    <!-- Join Our Community -->
+                  <!-- </h2> -->
+                  <!-- <p class="section-description"> -->
+                    <!-- Get expert advice -->
+<!-- Have a question? No worries. Our community agri-experts will help you. You can also learn community crop cultivation and help fellow farmers with your experience. -->
+                  <!-- </p> -->
+                <!-- </div> -->
+              <!-- </div> -->
+              <!-- <div class="home-buttons1"> -->
+                <!-- <div class="home-get-started4 button"> -->
+                  <!-- <span class="home-text22">Get started</span> -->
+                <!-- </div> -->
+                <!-- <div class="home-book-demo button"> -->
+                  <!-- <span class="home-text23">Let's ask AI chatbot</span> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+          <!-- </section> -->
+          <!-- </section> -->
+        <section class="home-section05">
+          <header class="home-header03">
+            <header class="home-left">
+              <span class="section-head"></span>
+              <h2 class="section-heading">
+                <span>Supporting sustainable </span>
+                <br />
+                <span>and profitable farming</span>
+              </h2>
+            </header>
+            <div class="home-right">
+              <p class="home-paragraph3 section-description">
+                The alerts come with written preventative measures to aid in impeding infestations.
+                                Start Receiving Alerts Today</p>
+            </div>
+          </header>
+          <main class="home-cards">
+            <section class="card-card card-root-class-name">
+              <div class="card-icon">
+                <img
+                  alt="image"
+                  src="public/Icons/group%201316-200w.png"
+                  class="card-icon1"
+                />
+              </div>
+              <main class="card-content">
+                <h1 class="card-header"><span></span></h1>
+                <p class="card-description">
+                  <span>
+                    App that recognizes plant diseases. Images of plant problems are uploaded to the app then analyzed through the ai algorithms
+                  </span>
+                </p>
+              </main>
+            </section>
+            <section class="card-card card-root-class-name1">
+              <div class="card-icon">
+                <img
+                  alt="image"
+                  src="public/Icons/group%201314-200h.png"
+                  class="card-icon1"
+                />
+              </div>
+              <main class="card-content">
+                <h1 class="card-header"><span></span></h1>
+                <p class="card-description">
+                  <span>
+                    If you have any specific questions community crop diseases, prevention strategies, or if you need assistance with any related information, feel free to ask. I'm here to help
+                  </span>
+                </p>
+              </main>
+            </section>
+            <section class="card-card card-root-class-name2">
+              <div class="card-icon">
+                <img
+                  alt="image"
+                  src="public/Icons/group%201317-200h.png"
+                  class="card-icon1"
+                />
+              </div>
+              <main class="card-content">
+                <h1 class="card-header"><span></span></h1>
+                <p class="card-description">
+                  <span> In agriculture
+                    Our agricultural app notifies subscribers after crop diseases and pests are detected and expected to arrive on fields. The alerts come with written preventative measures to aid in impeding infestations. 
+                  </span>
+                </p>
+              </main>
+            </section>
+          </main>
+        </section>
+        <section class="home-section09">
+          <div class="home-cube">
+            <div class="home-top side"></div>
+            <div class="home-front side"></div>
+            <div class="home-left1 side"></div>
+          </div>
+          <main class="home-banner">
+            <div class="home-header05">
+              <h2 class="section-heading">
+                Want to Get expert advice
+              </h2>
+              <p class="home-description section-description">
+                join our community and get expert advice from our experts
+              </p>
+            </div>
+            <div class="home-buttons1">
+              <div class="home-get-started4 button">
+                <span class="home-text22">Get started</span>
+              </div>
+              <div class="home-book-demo button">
+                <span class="home-text23">Join Now</span>
+              </div>
+            </div>
+          </main>
+        </section>
+        <section class="home-section18">
+          <main class="home-content5">
+            <header class="home-header13">
+              <h2 class="home-heading17 section-heading">
+                Stop searching online Solutions for plant and use Planicare.
+              </h2>
+              <div class="home-buttons2">
+                <div class="home-ios button">
+                  <span class="home-text40"><a href="#home">Right Now!</a></span>
+                </div>
+                <div class="home-android button">
+                  <span class="home-text41"><a href="#home">Let's go</a></span>
+                </div>
+              </div>
+            </header>
+            <img
+              alt="image"
+              src="public\Icons\3.png"
+              class="home-image15"
+            />
+          </main>
+        </section>
+        <footer class="home-footer">
+          <div class="home-content6">
+            <main class="home-main-content">
+              <div class="home-content7">
+                <header class="home-main4">
+                  <div class="home-header14">
+                    <img
+                      alt="image"
+                      src="public/Icons/icc.png"
+                      class="home-branding"
+                    />
+                   </div>
+                  <div class="home-socials">
+                    <a
+                      href="https://example.com"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="home-link"
+                    >
+                      <img
+                        alt="image"
+                        src="public/Icons/linkedin-200h.png"
+                        class="social"
+                      />
+                    </a>
+                    <a
+                      href="https://example.com"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="home-link1"
+                    >
+                      <img
+                        alt="image"
+                        src="public/Icons/instagram-200h.png"
+                        class="social"
+                      />
+                    </a>
+                    <a
+                      href="https://example.com"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      class="home-link2"
+                    >
+                      <img
+                        alt="image"
+                        src="public/Icons/twitter-200h.png"
+                        class="social"
+                      />
+                    </a>
+                  </div>
+                </header>
+                <header class="home-categories">
+                  <div class="home-category">
+                    <div class="home-header15">
+                      <span class="footer-header">Crops</span>
+                    </div>
+                    <div class="home-links">
+                      <span class="footer-link">Sugarcane</span>
+                      <span class="footer-link">Bellpeper</span>
+                      <span class="footer-link">Tomato</span>
+                      <span class="footer-link">Potato</span>
+                      <span class="footer-link">Wheat/Rice</span>
+                    </div>
+                  </div>
+                  <div class="home-category1">
+                    <div class="home-header16">
+                      <span class="footer-header">Company</span>
+                    </div>
+                    <div class="home-links1">
+                      <span class="footer-link">About</span>
+                      <span class="footer-link">Team</span>
+                      <span class="footer-link">News</span>
+                      <span class="footer-link">Partners</span>
+                      <span class="footer-link">Careers</span>
+                    </div>
+                  </div>
+                </header>
+              </div>
+              <section class="home-copyright">
+                <span class="home-text56">
+                  © 2024 . All Rights Reserved.
+                </span>
+              </section>
+            </main>
+            <main class="home-subscribe">
+              <main class="home-main5">
+                <h1 class="home-heading18">Subscribe for More</h1>
+                <div class="home-input-field">
+                  <input
+                    type="email"
+                    placeholder="Enter your email"
+                    class="home-textinput input"
+                  />
+                  <div class="home-buy3 button">
+                    <span class="home-text57">-&gt;</span>
+                    <span class="home-text58">
+                      <span>Subscribe now</span>
+                      <br />
+                    </span>
+                  </div>
+                </div>
+              </main>
+              <h1 class="home-notice">
+                By subscribing  you agree with our Terms and
+                Conditions.
+              </h1>
+            </main>
+            <section class="home-copyright1">
+              <span class="home-text61">
+                © 2024. All Rights Reserved.
+              </span>
+            </section>
+          </div>
+        </footer>
+        <div>
+          <div class="home-container5">
+            <script>
+                  /*
+              Accordion - Code Embed
+              */
+
+              /* listenForUrlChangesAccordion() makes sure that if you changes pages inside your app,
+              the Accordions will still work*/
+
+              const listenForUrlChangesAccordion = () => {
+                    let url = location.href;
+                    document.body.addEventListener(
+                      'click',
+                      () => {
+                        requestAnimationFrame(() => {
+                          if (url !== location.href) {
+                            runAccordionCodeEmbed();
+                            url = location.href;
+                          }
+                        });
+                      },
+                      true
+                    );
+                  };
+
+
+              const runAccordionCodeEmbed = () => {
+                  const accordionContainers = document.querySelectorAll('[data-role='accordion-container']'); // All accordion containers
+                  const accordionContents = document.querySelectorAll('[data-role='accordion-content']'); // All accordion content
+                  const accordionIcons = document.querySelectorAll('[data-role='accordion-icon']');
+
+                  accordionContents.forEach((accordionContent) => {
+                      accordionContent.style.display = 'none'; //Hides all accordion contents
+                  });
+
+                  accordionContainers.forEach((accordionContainer, index) => {
+                      accordionContainer.addEventListener('click', () => {
+                          accordionContents.forEach((accordionContent) => {
+                          accordionContent.style.display = 'none'; //Hides all accordion contents
+                          });
+
+                          accordionIcons.forEach((accordionIcon) => {
+                              accordionIcon.style.transform = 'rotate(0deg)'; // Resets all icon transforms to 0deg (default)
+                          });
+
+                          accordionContents[index].style.display = 'flex'; // Shows accordion content
+                          accordionIcons[index].style.transform = 'rotate(180deg)'; // Rotates accordion icon 180deg
+                      });
+                  });
+              }
+
+              runAccordionCodeEmbed()
+              listenForUrlChangesAccordion()
+
+              /*
+              Here's what the above is doing:
+                  1. Selects all accordion containers, contents, and icons
+                  2. Hides all accordion contents
+                  3. Adds an event listener to each accordion container
+                  4. When an accordion container is clicked, it:
+                      - Hides all accordion contents
+                      - Resets all icon transforms to 0deg (default)
+                      - Checks if this container has class 'accordion-open'
+                          - If it does, it removes class 'accordion-open'
+                          - If it doesn't, it:
+                              - Removes class 'accordion-open' from all containers
+                              - Adds class 'accordion-open' to this container
+                              - Shows accordion content
+                              - Rotates accordion icon 180deg
+              */
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+    <body>
+      <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+      <script>
+        window.botpressWebChat.init({
+            "composerPlaceholder": "Chat with PlantCare",
+            "botConversationDescription": "Our AI Chatbot – your virtual agriculture companion! 🚀🌾",
+            "botId": "53185d81-9524-4220-8bcb-d6768e211aee",
+            "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+            "messagingUrl": "https://messaging.botpress.cloud",
+            "clientId": "53185d81-9524-4220-8bcb-d6768e211aee",
+            "webhookId": "a00ea26b-2ebc-4e27-b558-35bfd04eb408",
+            "lazySocket": true,
+            "themeName": "prism",
+            "botName": "PlantCare",
+            "stylesheet": "https://webchat-styler-css.botpress.app/prod/7655cfce-edac-488f-8683-9bb0904be7c4/v69891/style.css",
+            "frontendVersion": "v1",
+            "useSessionStorage": true,
+            "enableConversationDeletion": true,
+            "theme": "prism",
+            "themeColor": "#2563eb"
+        });
+      </script>
+</body>
+  </body>
+</html>

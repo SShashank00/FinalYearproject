@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlantCare Login Page </title>
+    <link rel="stylesheet" href="style2.css">
+  </head>
+  <body>
+    <div class="container flex">
+      <div class="account-page flex">
+        <div class="text">
+          <img
+                      alt="image"
+                      src="public/Icons/icc.png" 
+                      height="100"
+                      max-width: 100%;
+                    />
+          <h1><a>PlantCare</a></h1>
+          <p>Connect with fellow plant enthusiasts and</p>
+          <p>exchange gardening tipsfor plants in<br> this vibrant community..🌱</p>
+        </div>
+        <form action="#">
+          <input type="email" placeholder="Email or phone number" required>
+          <input type="password" placeholder="Password" required>
+          <div class="link">
+            <button type="submit" class="login">Login</button>
+            <a href="#" class="forgot">Forgot password?</a>
+            <a href="#" class="forgot">Create new account</a>
+          </div>
+          <hr>
+          <div class="button">
+            <a href="index.html">Back</a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- <script src="\port.js"> </script> -->
+    <script>
+      var modal = document.getElementById('id01');
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
