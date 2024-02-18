@@ -63,7 +63,7 @@
   transition: 0.3s;
   align-items: stretch;
   flex-direction: column;
-  background-color: #0a0909;
+  background-color: #8ff0a4;
 }
 .navbar-branding {
   display: flex;
@@ -93,7 +93,7 @@
   flex-direction: column;
 }
 .navbar-text1 {
-  color: rgb(0, 0, 0);
+  color: rgb(252, 249, 249);
   align-self: auto;
   font-style: Medium;
   text-align: left;
