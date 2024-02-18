@@ -14,9 +14,9 @@
 
 .container {
   padding: 0 15px;
-  min-height: 100vh;
+  min-height: 75vh;
   justify-content: center;
-  background: #f0f2f5;
+  background:#f0f2f5;
 }
 
 .account-page {
@@ -47,7 +47,7 @@
 form {
   display: flex;
   flex-direction: column;
-  background: #fff;
+  background: #b4efbc;
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
