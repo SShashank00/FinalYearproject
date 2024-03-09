@@ -1,5 +1,6 @@
 <?php
     include('connection.php');
+    include('login.php');
     if (isset($_POST['submit'])) {
         $username = $_POST['user'];
         $password = $_POST['pass'];
@@ -14,7 +15,7 @@
         }  
         else{  
             echo  '<script>
-                        window.location.href = "inde.php";
+                        window.location.href = "index.php";
                         alert("Login failed. Invalid username or password!!")
                     </script>';
         }     
