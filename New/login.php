@@ -10,7 +10,7 @@
         $count = mysqli_num_rows($result);  
         
         if($count == 1){  
-            header("Location: https://sshashank00.github.io/FinalYearproject/index.html");
+            header("Location: http://localhost/FinalyearProjecct/index2.html");
         }  
         else{  
             echo  '<script>
