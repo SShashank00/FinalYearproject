@@ -1,8 +1,9 @@
 <?php
         include("connection.php");
         include("login.php");
-        // include("signup.php");
+        include("signup.php");
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -46,7 +47,7 @@
                 <div class="link">
             <input type="submit" id="btn" value="Login" action="http://localhost/FinalyearProjecct/index2.html" name = "submit"/>
             <a href="#" class="forgot">Forgot password?</a>
-            <a href="#" class="forgot">Create new account</a>
+            <a href="signup.php" class="forgot">Create new account</a>
           </div>
           <hr>
           <div class="button">
