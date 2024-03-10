@@ -1,27 +1,10 @@
-/* body{
-    background-color: #8ce264;
-}
-h1{
-    align-items: center;
-    font-weight: 800;
-}
-
-#form{
-    background-color: rgb(255, 255, 255);
-    width:25%;
-    border-radius: 4px;
-    margin:120px auto;
-    padding:50px;
-    box-shadow: 10px 10px 5px rgb(1, 55, 1);
-}
-*/
-#btn{
+/* #btn{
     color:rgb(255, 255, 255);
     background-color: rgb(45, 102, 57);
     padding:10px;
     font-size: large;
     border-radius: 10px;
-}
+} */
 
 /*@media screen and (max-width: 570px) {
     #form {

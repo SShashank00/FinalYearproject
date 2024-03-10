@@ -5,7 +5,7 @@
         $password =mysqli_real_escape_string($conn,$_POST['pass']);
 
         $sql = "select * from user where username = '$username'or email='$username'";  
-        $result = mysqli_query($conn, $sql);  
+        $result = mysqli_query($conn, $sql);
         $row = mysqli_fetch_array($result, MYSQLI_ASSOC);  
         // $count = mysqli_num_rows($result);
         if($row){
@@ -45,16 +45,15 @@
                 <p>exchange gardening tipsfor plants in<br> this vibrant community..🌱</p>
                 </div>
                 <form name="form" action="inde.php" onsubmit="return isvalid()" method="POST">
-                <label>Username: </label>
+                <label>Username/Email </label>
                         <input type="text" id="user" name="user" require></br>
                         <label>Password: </label>
                         <input type="password" id="pass" name="pass" require></br>
                         <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i>
                     <script>
-                                const togglePassword = document.querySelector('#togglePassword');
-                    const password = document.querySelector('#id_password');
-
-                    togglePassword.addEventListener('click', function (e) {
+                            const togglePassword = document.querySelector('#togglePassword');
+                            const password = document.querySelector('#id_password');
+                            togglePassword.addEventListener('click', function (e) {
                         // toggle the type attribute
                         const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
                         password.setAttribute('type', type);

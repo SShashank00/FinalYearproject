@@ -70,7 +70,7 @@
                 <input type="password" id="cpass" name="cpass" require></br>
                 <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i>
                 <div class="link">
-                <input type="submit" id="btn" value="Signup" action="" name = "submit"/>
+                <input type="submit" id="btn" value="Signup" action="http://localhost/FinalyearProjecct/index2.html" name = "submit"/>
                   <a href="#" class="forgot">Forgot password?</a>
                   <a href="#" class="forgot">Already Sign up</a>
           </div>
